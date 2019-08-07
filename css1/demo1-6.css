@@ -1,0 +1,134 @@
+*{
+    padding:0;
+    margin:0;
+    font-size:10px;
+}
+header{
+    width:100%;
+    background-color:black;
+}
+.containers{
+    width:80%;
+    margin:0 auto;
+    overflow: hidden;
+    height:100%;
+}
+.containers .logo{
+    float:left;
+    height:100%;
+}
+.logo p {
+    color:white;
+    margin:20px 0;
+    font-size:3rem;
+}
+div.nav{
+    float:right;
+}
+.nav ul li{
+    float:left;
+    list-style: none;
+    margin:8px;
+}
+.nav a{
+    color:white;
+    font-size:1.5rem;
+}
+.container{
+    width:100%;
+}
+.container1{
+    width:100%;
+    height:30rem;
+    background:green;
+}
+.container2 .container3{
+    float:right;
+    width:16rem;
+    height:5rem;
+    margin-top:24rem;
+    display:flex;
+    align-items: flex-end;
+}
+.container2 .one {
+    margin-right:0.5rem;
+    border:1px solid greenyellow;
+    background-color:white;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    color:blueviolet;
+}
+.container2 .two{
+    height:5rem;
+    background-color:white;
+    border:1px solid black;
+    color:black;
+}
+.article{
+    width:100%;
+}
+.containers1{
+    height:6rem;
+    border-bottom:1px solid gray;
+    position:relative;
+}
+.containers1 .containers2{
+    width:80%;
+    margin:auto;
+}
+.containers3{
+    position:absolute;
+    bottom:-1px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+.containers3 li{
+    float:left;
+    list-style: none;
+    padding:1rem 1.5rem;
+    border:1px solid gray;
+    border-top-left-radius: 2.5rem;
+    border-top-right-radius: 2.5rem;
+    background-color:whitesmoke;
+}
+.containers1 a {
+    color:black;
+    text-decoration: none;
+    font-size:2rem;
+}
+.containers3 li:first-child {
+    background-color:white;
+    border-bottom:1px solid white;
+}
+.content .box{
+    display:flex;
+    flex-flow:wrap;
+    margin-bottom:2rem;
+}
+.content1{
+    border:1px solid gray;
+    padding:8%;
+    flex:auto;
+    margin-right:2rem;
+    margin-top:2rem;
+    font-size:1.6rem;
+}
+.content2{
+    flex :auto;
+    margin-right:2rem;
+    padding:5%;
+    border:1px solid gray;
+    margin:2rem 2rem 0 0;
+    font-size:1.6rem;
+}
+footer{
+    widows: 100%;
+    height:15rem;
+    background-color:gray;
+    color:aliceblue;
+    text-align: center;
+    font-size:1.6rem;
+    padding-top:2rem;
+}

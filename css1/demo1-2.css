@@ -1,0 +1,52 @@
+.one{
+    /*position:fixed;
+    background-color:grey;
+    width:500px;
+    height:200px;*/
+    /*float:left;
+    position:fixed;
+    background-color:greenyellow;
+    width:500px;
+    height:200px;*/
+    /*position: fixed;
+    background-color:grey;
+    min-width: 200px;
+    height:100px;*/
+    position:fixed;
+    left:0;
+    width:200px;
+    height:100px;
+    background-color:blue;
+
+}
+.two{
+    /*position:relative;
+    margin:0 auto;
+    background-color:blue;
+    left:0x;
+    max-width:8000px;
+    height:200px;*/
+    /*float:left;
+    position: relative;
+    margin:0 auto;
+    background-color:blue;
+    left:500px;
+    min-width: 70%;
+    height:200px;*/
+    /*position: absolute;
+    margin:0 auto;
+    left:200px;
+    background-color:blue;
+    min-width: 1000px;
+    height:100px;*/
+    position:absolute;
+    left:200px;
+    min-width:500px;
+    margin-right:2000px auto;
+    height:100px;
+    background-color:grey;
+
+}
+.value1-2{
+    padding:0 200px;
+}

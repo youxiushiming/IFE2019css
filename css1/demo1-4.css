@@ -1,0 +1,21 @@
+.main{
+    width: 100%;
+    background: red;
+   overflow:hidden;
+}
+.left{
+    background: yellow;
+    float: left;
+    width: 100px;
+}
+.right{
+     background: rebeccapurple;
+     float:right;
+     width:cacl(100%-200px);
+ }
+.middle{
+    background: green;
+    float: left;
+    width: 100px;
+}
+
